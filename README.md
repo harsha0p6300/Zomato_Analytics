@@ -109,7 +109,7 @@ This enabled efficient analysis across multiple business dimensions.
 ## 📷 Dashboard Preview
 
 ### Main Dashboard
-![Dashboard](Dashboard.png)
+![Dashboard]())
 
 ### Data Model
 ![Data Model](Data_Model.png)
