@@ -1,90 +1,146 @@
-# Zomato Sales Analytics Dashboard
+# 🍽️ Zomato Sales Analytics Dashboard | Power BI
 
-## 📌 Project Overview
+## 1️⃣ Business Problem
 
-This project presents an interactive Power BI dashboard built to analyze Zomato sales data and generate actionable business insights. The dashboard helps track revenue performance, customer behavior, restaurant performance, cuisine trends, and geographical order distribution.
+Zomato generates large volumes of customer, restaurant, and order data daily. However, raw data alone cannot help stakeholders make informed decisions.
 
----
-
-## 🎯 Objective
-
-To transform raw sales data into meaningful visualizations that support data-driven business decisions and identify key revenue-driving factors.
+The objective of this project is to analyze sales performance, customer ordering behavior, restaurant performance, cuisine popularity, and geographical order distribution to uncover actionable business insights.
 
 ---
 
-## 📊 Key Metrics
+## 2️⃣ Dashboard Goal
 
-- Total Revenue: ₹6.02M
-- Total Orders: 5K
-- Total Customers: 5K
-- Average Orders: 1.28K
+The goal of this dashboard is to provide a centralized view of key business metrics and enable decision-makers to:
 
----
-
-## 🗂️ Dataset
-
-The project uses three interconnected datasets:
-
-### Restaurants Table
-- Restaurant ID
-- City
-- Cuisine Type
-- Rating
-- Average Cost for Two
-- Delivery Time
-
-### Customers Table
-- Customer ID
-- Customer Name
-- Age
-- Gender
-- Preferred Cuisine
-
-### Orders Table
-- Order Amount
-- Final Amount
-- Delivery Charges
-- Items Ordered
-- Customer Rating
-- Delivery Time
+- Monitor revenue performance
+- Track customer ordering trends
+- Identify top-performing restaurants
+- Analyze cuisine preferences
+- Understand city-wise order distribution
+- Support data-driven business decisions
 
 ---
 
-## 🔗 Data Model
+## 3️⃣ Key Visuals and Their Purpose
 
-A star-schema data model was created using relationships between:
+### KPI Cards
+**Purpose:** Provide a quick overview of overall business performance.
 
-- Restaurants Table ↔ Orders Table
-- Customers Table ↔ Orders Table
-
-This enabled efficient analysis across multiple business dimensions.
-
----
-
-## 📈 Dashboard Features
-
-- Revenue Analysis
-- Customer Analysis
-- City-wise Order Distribution
-- Cuisine Performance Analysis
-- Top Restaurants by Revenue
-- Daily Order Trends
-- Yearly Quantity Sold Trends
-- Interactive Filters and Slicers
+Metrics:
+- Total Revenue
+- Total Orders
+- Total Customers
+- Average Orders
 
 ---
 
-## 💡 Key Insights
+### City-wise Order Distribution Map
 
-- Kerala and Italian cuisines generated the highest revenue among all cuisine categories.
-- Major metropolitan cities contributed significantly to total order volume.
-- The top three restaurants generated the highest revenue.
-- Repeat customers contributed a substantial share of overall orders.
-- Order volumes remained relatively stable throughout the analyzed period.
+**Visualization:** Map Chart
+
+**Purpose:**
+- Identify cities with the highest order volumes.
+- Understand geographical demand patterns.
 
 ---
 
-## 🛠️ Tools & Technologies
+### Total Orders Trend
+
+**Visualization:** Line Chart
+
+**Purpose:**
+- Analyze daily order trends.
+- Detect demand fluctuations and peak ordering periods.
+
+---
+
+### Quantity Distribution Funnel
+
+**Visualization:** Funnel Chart
+
+**Purpose:**
+- Compare quantity sold across different levels.
+- Visualize the sales funnel and quantity contribution.
+
+---
+
+### Top Customers Analysis
+
+**Visualization:** Pie Chart
+
+**Purpose:**
+- Identify customers contributing the highest number of orders.
+- Understand customer concentration.
+
+---
+
+### Top Restaurants by Revenue
+
+**Visualization:** Column Chart
+
+**Purpose:**
+- Identify restaurants generating the highest revenue.
+- Evaluate restaurant performance.
+
+---
+
+### Cuisine-wise Revenue Analysis
+
+**Visualization:** Table Visual
+
+**Purpose:**
+- Compare revenue and quantity sold across cuisines.
+- Identify high-performing cuisine categories.
+
+---
+
+### Yearly Quantity Sold Trend
+
+**Visualization:** Area/Line Chart
+
+**Purpose:**
+- Analyze long-term sales performance.
+- Monitor quantity growth trends over time.
+
+---
+
+## 4️⃣ Business Impact & Key Insights
+
+### Revenue Performance
+- Generated total revenue of ₹6.02 Million from 5,000+ orders.
+
+### Cuisine Analysis
+- Kerala and Italian cuisines emerged as the top-performing categories in both revenue and quantity sold, indicating strong customer demand.
+
+### Customer Insights
+- A small group of repeat customers contributed a significant share of total orders, highlighting the importance of customer retention.
+
+### Restaurant Performance
+- The top three restaurants generated the highest revenue, demonstrating strong brand preference among customers.
+
+### Geographical Insights
+- Major metropolitan cities accounted for a substantial portion of total orders, indicating concentrated market demand.
+
+### Order Trends
+- Order volumes remained relatively stable throughout the analyzed period with occasional demand spikes.
+
+---
+
+## 5️⃣ Dashboard Screenshots
+
+### Main Dashboard
+
+![Dashboard](https://github.com/harsha0p6300/Zomato_Analytics/blob/main/Screenshot_Dashboard(Zomato).png?raw=true)
+
+---
+
+### Data Model
+
+![image alt](https://github.com/harsha0p6300/Zomato_Analytics/blob/main/Data_modeling.png?raw=true)
+
+---
+
+## 🛠️ Tools Used
 
 - Power BI Desktop
 - Power Query
@@ -94,25 +150,16 @@ This enabled efficient analysis across multiple business dimensions.
 
 ---
 
-## 🚀 Skills Demonstrated
+## 📚 Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
 - Data Modeling
-- KPI Analysis
-- Dashboard Development
+- KPI Development
 - Business Intelligence
+- Dashboard Design
 - Data Visualization
-
----
-
-## 📷 Dashboard Preview
-
-### Main Dashboard
-![Dashboard](https://github.com/harsha0p6300/Zomato_Analytics/blob/main/Screenshot_Dashboard(Zomato).png?raw=true)))
-
-### Data Model
-![image alt]()
+- Analytical Thinking
 
 ---
 
@@ -120,4 +167,3 @@ This enabled efficient analysis across multiple business dimensions.
 
 **B. Harsha Vardhan**
 
-Aspiring Data Analyst | SQL | Power BI | Python | Excel
