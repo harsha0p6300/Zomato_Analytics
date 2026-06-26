@@ -109,10 +109,10 @@ This enabled efficient analysis across multiple business dimensions.
 ## 📷 Dashboard Preview
 
 ### Main Dashboard
-![Dashboard]())
+![Dashboard](https://github.com/harsha0p6300/Zomato_Analytics/blob/main/Screenshot_Dashboard(Zomato).png?raw=true)))
 
 ### Data Model
-![Data Model](Data_Model.png![image alt](https://github.com/harsha0p6300/Dmart_salesAnalysis/blob/main/Monthly%20revenue.png?raw=true)
+![image alt]()
 
 ---
 
