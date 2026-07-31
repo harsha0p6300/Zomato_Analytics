@@ -162,6 +162,15 @@ Metrics:
 - Analytical Thinking
 
 ---
+Summary:
+
+"I built a Zomato Sales Analytics Dashboard to analyze restaurant sales performance and customer ordering behavior. The project's objective was to provide business insights that could help improve decision-making.
+
+I worked with three datasets: Customers, Orders, and Restaurants. First, I cleaned the data using Power Query by removing duplicates, handling missing values, correcting data types, and ensuring data consistency. Then I created relationships between the tables to build an efficient data model.
+
+Next, I developed DAX measures for KPIs such as Total Revenue, Total Orders, Average Order Value, Total Customers, and Cancellation Rate. I designed interactive dashboards with slicers, bar charts, line charts, pie charts, and KPI cards so users could explore the data by month and restaurant.
+
+The analysis revealed the highest-performing restaurants, customer spending patterns, monthly revenue trends, and cancellation behavior. This dashboard helps managers quickly monitor business performance and make data-driven decisions."
 
 ## 👨‍💻 Author
 
